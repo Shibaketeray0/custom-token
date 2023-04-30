@@ -1,0 +1,11 @@
+--- fivestar.info.yml
++++ fivestar.info.yml
+@@ -2,7 +2,7 @@ name: Fivestar
+ type: module
+ description: 'Enables fivestar ratings on content, users, etc.'
+ package: Voting
+-core_version_requirement: ^9.2
++core_version_requirement: ^9.2 || ^10
+ dependencies:
+   - votingapi:votingapi
+ 

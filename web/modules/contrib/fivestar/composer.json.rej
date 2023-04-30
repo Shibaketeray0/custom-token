@@ -1,0 +1,11 @@
+--- composer.json
++++ composer.json
+@@ -9,7 +9,7 @@
+         "source": "https://git.drupalcode.org/project/fivestar"
+     },
+     "require": {
+-        "drupal/core": "^9.2",
++        "drupal/core": "^9.2 || ^10",
+         "drupal/votingapi": "^3.0"
+     },
+     "minimum-stability": "dev"
